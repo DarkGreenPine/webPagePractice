@@ -12,6 +12,38 @@
 	padding: 200px;
 }
 
+input[type = text], input[type = password]{
+	padding 5px 8px;
+	margin: 3px;
+	border: 1px solid darkgreen;
+	display: block;
+	position: relative;
+	left: 400px;
+}
+label{
+	position: relative;
+	left: 400px;
+	color: green;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+button{
+	position: relative;
+	left: 440px;
+	background-color: darkgreen;
+	color: white;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
 .navBar{
 	position: absolute;
 	left: 10px;
