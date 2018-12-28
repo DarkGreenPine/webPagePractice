@@ -1,0 +1,40 @@
+.header{
+	padding: 65px;
+	text-align: center;
+	background: darkgreen;
+	color: black;
+}
+
+.center{
+	background-image: url('https://static1.visitestonia.com/images/2890339/Estonian_forest_reasons_to_visit_Sven_Zacek.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 200px;
+}
+
+.navBar{
+	position: absolute;
+	left: 10px;
+	top: 250px;
+	border-right-style: solid;
+	border-color: darkgreen;
+}
+
+.navBar a{
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	padding: 28.5px 20px;
+	color: white;
+}
+
+.navBar a:hover {
+	background-color: black;
+	color: white;
+}
+
+.footer{
+	text-align: center;
+	background: darkgreen;
+	padding: 20px;
+}
