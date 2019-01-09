@@ -10,32 +10,34 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 200px;
+	text-align: center;
 }
 
 input[type = text], input[type = password]{
-	padding 5px 8px;
-	margin: 3px;
-	border: 1px solid darkgreen;
 	display: block;
-	position: relative;
-	left: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding 5px 8px;
+	border: 1px solid darkgreen;
 }
+
 label{
-	position: relative;
-	left: 400px;
-	color: green;
+	display: block;
+	text-align: center;
+	color: darkgreen;
 	text-shadow:
 	-1px -1px 0 #000,
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
 	1px 1px 0 #000;
 }
+
 button{
-	position: relative;
-	left: 440px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 	background-color: darkgreen;
 	color: white;
-	text-align: center;
 	border: none;
 	cursor: pointer;
 }
